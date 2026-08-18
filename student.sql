@@ -1,17 +1,11 @@
 DROP TABLE IF EXISTS Students;
 
 CREATE TABLE Students (
-
 Student_ID INT PRIMARY KEY,
-
 First_Name VARCHAR (50) NOT NULL,
-
 Last_Name VARCHAR(50),
-
 Enrollment_Date DATE,
-
 GPA DECIMAL (1,2)
-
 );
 
 INSERT INTO
