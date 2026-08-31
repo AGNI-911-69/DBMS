@@ -5,7 +5,7 @@ Student_ID INT PRIMARY KEY,
 First_Name VARCHAR (50) NOT NULL,
 Last_Name VARCHAR(50),
 Enrollment_Date DATE,
-GPA DECIMAL (1,2)
+GPA DECIMAL (3,2)
 );
 
 INSERT INTO
