@@ -10,6 +10,7 @@ INSERT INTO Department VALUES
 (2, 'HR', 'Mumbai'),
 (3, 'Finance', 'Delhi'),
 (4, 'Sales', 'Pune');
+SELECT * FROM Department;
 
 -- Replace with the actual closed department
 DELETE FROM Department WHERE Dept_Name = 'Sales';
