@@ -15,6 +15,7 @@ INSERT INTO Attendance VALUES
 (4, 101, '2026-09-02', 'Present', 9),
 (5, 102, '2026-09-02', 'Absent', 0),
 (6, 103, '2026-09-02', 'Present', 8);
+SELECT * FROM Attendance;
 
 UPDATE Attendance
 SET Hours = 8, Status = 'Present'
