@@ -16,10 +16,12 @@ INSERT INTO Employee (Emp_ID, Name, Dept, Salary, Experience, Email) VALUES
 (102, 'Subhra', 'HR', 42000, 2, 'subhra@gmail.com'),
 (103, 'Aradhya', 'Finance', 60000, 5, 'aradhya@gmail.com'),
 (104, 'Moupriya', 'Sales', 48000, 4, 'moupriya@gmail.com');
+SELECT * FROM Employee;
 
 UPDATE Employee
 SET Salary = 55000
 WHERE Name = 'Agni';
+SELECT * FROM Employee;
 
 -- Replace 104 with the resigned employee's ID if needed
 DELETE FROM Employee WHERE Emp_ID = 104;
